@@ -1,0 +1,10 @@
+*.buildinfo
+*.egg-info
+*.json
+*.log
+*.pyc
+_gitignore
+__pycache__/
+build/
+dist/
+docs/_build
