@@ -2,12 +2,8 @@
 
 A Python framework for managing chatbots - 0.0.1 (alpha)
 
-## Install and Run
-
 ```
-git clone https://github.com/gwilkes/botpie.git
-cd botpie/
-python setup.py install
+pip install botpie
 ```
 
 ## Features
@@ -28,7 +24,7 @@ import random
 message = botpie.utils.argvstr()
 bot = botpie.Bot("ImportantBot")
 
-@bot.command("!tracer")
+@bot.command("tracer")
 def tracer():
     greets = ["hiya!", "heya!", "hi!", "hoiya!"]
     return random.choice(greets)
@@ -38,6 +34,7 @@ result = bot.inspectstr(message)
 if result:
     print(result)
 ```
+>   The above example was tested by running `python examples/basic.py tracer`
 
 ## Work In Progress
 
