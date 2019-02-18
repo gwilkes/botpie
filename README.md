@@ -1,6 +1,10 @@
 # BotPie
 
-A Python framework for managing chatbots - 0.0.1 (alpha)
+[![version](https://img.shields.io/pypi/v/botpie.svg?style=flat)](https://pypi.org/project/botpie/)
+[![python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-372/)
+[![license](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+A Python framework for managing chatbots (alpha)
 
 `pip install botpie`
 
@@ -15,7 +19,7 @@ most of the work.
 
 ## Basic Script
 
-```
+```python
 import botpie
 import random
 
@@ -39,11 +43,8 @@ if result:
 This is a lightweight initial release which does not include several of the desired features yet. Here are some of the plans for future releases:
 *   Asynchronous support
 *   Optional storage solution for Bot data
+*   Interfaces for IRC, Twitch, and Discord
 
 Other todos:
 *   Fix docstrings
 *   Include a better example for above (show off decorators, use discord connection, etc)
-
-## Requirements
-
-Python 3.7+ (this *may* change down the road to support older versions)
