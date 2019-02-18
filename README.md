@@ -2,9 +2,7 @@
 
 A Python framework for managing chatbots - 0.0.1 (alpha)
 
-```
-pip install botpie
-```
+`pip install botpie`
 
 ## Features
 
