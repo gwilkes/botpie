@@ -17,8 +17,6 @@ python setup.py install
 BotPie handles command parsing by using the Python [argparse][] module to do
 most of the work.
 
-#### Mapping with Decorators
-
 [argparse]: https://docs.python.org/3/library/argparse.html
 
 ## Basic Script
@@ -35,7 +33,7 @@ def tracer():
     greets = ["hiya!", "heya!", "hi!", "hoiya!"]
     return random.choice(greets)
 
-result = bot.inspect(message)
+result = bot.inspectstr(message)
 
 if result:
     print(result)
